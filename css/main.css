@@ -17,18 +17,17 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
 }
 
-header{
-padding: .5rem;
-background-color: #ccc;
-text-align: center;
+header {
+  padding: .5rem;
+  background-color: #ccc;
+  text-align: center;
 }
 
-h1{
+h1 {
   margin: 0 0 .5rem;
   font-size: 1.5rem;
 }
@@ -62,6 +61,23 @@ nav a:hover {
     text-align: center;
   }
 
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -70,25 +86,25 @@ nav a:hover {
     font-size: 110%;
     line-height: 1.4;
   }
-}
 
-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
-}
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
 
-h1,
-nav {
-  display: inline-block;
-  vertical-align: middle;
-}
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-h1 {
-  margin-bottom: 0;
-  margin-right: 1.5rem
-}
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
 
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -97,46 +113,46 @@ h1 {
     line-height: 1.5;
   }
 
-}
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
 
-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
-}
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
 
-h1,
-nav {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-h1 {
-  margin-bottom: 0;
-  margin-right: 1.5rem
-}
-
-@media only screen and (min-width: 90em) {
-
-  html{
-    font-size: 130%;
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
   }
 
 }
 
-header {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: left;
-}
+@media only screen and (min-width: 90em) {
 
-h1,
-nav {
-  display: inline-block;
-  vertical-align: middle;
-}
+  html {
+    font-size: 130%;
+  }
 
-h1 {
-  margin-bottom: 0;
-  margin-right: 1.5rem
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  h1,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+
 }
